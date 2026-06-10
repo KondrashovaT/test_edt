@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="c6c93683-3f19-43be-af62-f0bab1191eb1">
+  <producedTypes>
+    <selectionType typeId="8a6e7a3d-cee9-4031-a6a6-6eba7b100f02" valueTypeId="daeb5fdc-169b-4e7c-8614-ff2000fb7d56"/>
+    <listType typeId="28e4b85a-8f65-4cbe-87ad-6b8fac99c428" valueTypeId="0872f963-ca69-4454-a6cf-344dc20fd418"/>
+    <managerType typeId="1a0f68dd-5cad-4c36-b034-12c4b17a1d68" valueTypeId="a75b6039-a4f8-487f-b7f0-2e60b7b6c248"/>
+    <recordSetType typeId="0c98c43c-3217-4a2e-88e8-140f02ad4389" valueTypeId="000f2dfa-471e-4302-a698-d42a721dddf2"/>
+    <recordKeyType typeId="d9e2a839-970f-4fdc-8a85-af113397c095" valueTypeId="df08a290-521d-4699-af1f-eed720b8eafa"/>
+    <recordType typeId="e389f1fb-aa69-47cc-9aae-a0deeef700cd" valueTypeId="fd8f2258-c5a9-4a04-9d5e-1b85d98fc0a1"/>
+    <recordManagerType typeId="6468e5ec-f5aa-4dcb-ab9f-cc68df777048" valueTypeId="614ceddf-9355-45a8-ae1e-063500d8d702"/>
+  </producedTypes>
+  <name>СпециальныеУсловияЗанятостиДолжностей</name>
+  <synonym>
+    <key>ru</key>
+    <value>Специальные условия занятости должностей</value>
+  </synonym>
+  <editType>InDialog</editType>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Active</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>LineNumber</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Recorder</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Period</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <recordPresentation>
+    <key>ru</key>
+    <value>Специальные условия занятости</value>
+  </recordPresentation>
+  <listPresentation>
+    <key>ru</key>
+    <value>Специальные условия занятости</value>
+  </listPresentation>
+  <resources uuid="1222ae7b-5c18-4f8b-b340-1c60265be165">
+    <name>Значение</name>
+    <synonym>
+      <key>ru</key>
+      <value>Значение</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>1</length>
+        <fixed>true</fixed>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <dimensions uuid="13909036-dcf1-46a1-9923-6f16b803ff60">
+    <name>Должность</name>
+    <synonym>
+      <key>ru</key>
+      <value>Должность</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Должности</types>
+      <types>CatalogRef.ШтатноеРасписание</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <denyIncompleteValues>true</denyIncompleteValues>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <master>true</master>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="16efc9d4-0790-4ee6-85a6-6c5743fb5559">
+    <name>Код</name>
+    <synonym>
+      <key>ru</key>
+      <value>Код</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>4</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <denyIncompleteValues>true</denyIncompleteValues>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <forms uuid="8c42ff96-d0a3-455b-b44d-5fead4bc8a67">
+    <name>РедактированиеНабораЗаписей</name>
+    <synonym>
+      <key>ru</key>
+      <value>Редактирование набора записей</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:InformationRegister>

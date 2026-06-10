@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="377c2a9e-66bd-4f1f-832a-90db40281194">
+  <name>КлассыУсловийТрудаРасширенная</name>
+  <synonym>
+    <key>ru</key>
+    <value>Классы условий труда расширенная</value>
+  </synonym>
+  <includeHelpInContents>true</includeHelpInContents>
+  <content>CommonModule.КлассыУсловийТрудаРасширенный</content>
+  <content>FunctionalOption.ПрименятьРезультатыСпециальнойОценкиУсловийТрудаРасширенная</content>
+  <parentSubsystem>Subsystem.ЗарплатаКадрыРасширеннаяПодсистемы</parentSubsystem>
+</mdclass:Subsystem>

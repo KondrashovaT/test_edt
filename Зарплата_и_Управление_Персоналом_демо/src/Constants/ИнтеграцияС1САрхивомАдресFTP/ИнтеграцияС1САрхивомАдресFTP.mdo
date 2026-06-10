@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="7186ac2c-1ad2-4d94-a46d-b56e175ec74d">
+  <producedTypes>
+    <managerType typeId="cd0c239e-4b34-44f0-8cc4-b5005e9f00d4" valueTypeId="72e00240-e2c0-43ed-98cb-0529f5fb5b2f"/>
+    <valueManagerType typeId="743be333-158b-471a-9fb6-a5595e5971b2" valueTypeId="ed460a51-6c94-42cf-a871-be68e040fbe7"/>
+    <valueKeyType typeId="b43313a6-6d5a-4cd0-9e01-adb0ba380aae" valueTypeId="7a9e142e-a18b-48e0-b018-23e89d9e8f45"/>
+  </producedTypes>
+  <name>ИнтеграцияС1САрхивомАдресFTP</name>
+  <synonym>
+    <key>ru</key>
+    <value>Адрес FTP-ресурса для интеграции с 1С:Архивом</value>
+  </synonym>
+  <type>
+    <types>String</types>
+    <stringQualifiers/>
+  </type>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>

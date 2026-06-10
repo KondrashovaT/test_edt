@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:FunctionalOption xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="db6a758e-1f14-4b05-8e2d-853adc7b264f">
+  <name>ИспользоватьРезервыПоОплатеТрудаРасширенная</name>
+  <synonym>
+    <key>ru</key>
+    <value>Использовать резервы по оплате труда расширенная</value>
+  </synonym>
+  <location>Constant.ИспользоватьРезервыПоОплатеТруда</location>
+  <privilegedGetMode>true</privilegedGetMode>
+  <content>AccumulationRegister.ОтражениеВБухучетеНачисленнаяЗарплатаИВзносы.Attribute.РезервБУ</content>
+  <content>Document.ОтражениеЗарплатыВБухучете.TabularSection.ВыплатаЗаСчетРезерва</content>
+  <content>Document.ОтражениеЗарплатыВБухучете.TabularSection.ВыплатаЗаСчетРезерва.Attribute.РезервБУ</content>
+  <content>AccumulationRegister.ОтражениеВБухучетеНачисленнаяЗарплатаИВзносы.Attribute.РезервНУ</content>
+  <content>Document.ОтражениеЗарплатыВБухучете.TabularSection.ВыплатаЗаСчетРезерва.Attribute.РезервНУ</content>
+  <content>Document.ОтражениеЗарплатыВБухучете.TabularSection.НачисленнаяЗарплатаИВзносы.Attribute.РезервБУ</content>
+  <content>Document.ОтражениеЗарплатыВБухучете.TabularSection.НачисленнаяЗарплатаИВзносы.Attribute.РезервНУ</content>
+  <content>Document.ПереносРезервовМеждуСтатьямиФинансирования</content>
+</mdclass:FunctionalOption>

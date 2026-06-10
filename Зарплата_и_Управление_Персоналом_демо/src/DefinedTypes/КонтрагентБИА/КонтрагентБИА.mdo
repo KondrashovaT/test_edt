@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DefinedType xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="a38a0074-26be-4c85-96d4-e92863057a52">
+  <producedTypes>
+    <containerType typeId="a1113906-c903-4b98-bbb7-7596ffeada1f" valueTypeId="87a2ca1d-f223-45f7-91a3-94cea31a31cf"/>
+  </producedTypes>
+  <name>КонтрагентБИА</name>
+  <synonym>
+    <key>ru</key>
+    <value>Контрагент БИА</value>
+  </synonym>
+  <type>
+    <types>CatalogRef.Контрагенты</types>
+  </type>
+</mdclass:DefinedType>

@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="76a2b7a1-d9dd-46e6-a6b6-05f89a804ead">
+  <producedTypes>
+    <selectionType typeId="f4baf401-03d7-4d1f-9b64-a1daf40d2286" valueTypeId="d42c85b1-9d76-4451-94b9-90640d20f256"/>
+    <listType typeId="b1ba4fae-562c-48c9-9d85-41e2f491464c" valueTypeId="f444264f-1998-4876-a472-d8192b9d642b"/>
+    <managerType typeId="dbec4f5f-e3ef-4e36-819b-cb885b6e693f" valueTypeId="d6f1eb82-b39b-4b2d-b0cf-b12b47dfa66e"/>
+    <recordSetType typeId="c0c6fe41-30b7-45bd-9190-dee216d5e41b" valueTypeId="d20caa5d-c11b-4d9b-ac1d-c962ce6f5302"/>
+    <recordKeyType typeId="6e8d622b-a362-4f72-bb5f-da45217768c2" valueTypeId="ad9b7a45-7c4f-4ad5-a45e-af48429b799a"/>
+    <recordType typeId="36c2506a-5a44-436a-8f8f-2d3470f2097a" valueTypeId="78f7ac92-5550-4edd-9d88-71af7b8dd8c3"/>
+    <recordManagerType typeId="9dc3001f-0f80-4d35-999e-cb171e4e4266" valueTypeId="87ffde3a-e023-4328-be19-451f58196f44"/>
+  </producedTypes>
+  <name>УсловияВозвратаЗадолженности</name>
+  <synonym>
+    <key>ru</key>
+    <value>Условия возврата задолженности</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <editType>InDialog</editType>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Active</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>LineNumber</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Recorder</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Period</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <informationRegisterPeriodicity>Month</informationRegisterPeriodicity>
+  <writeMode>RecorderSubordinate</writeMode>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <listPresentation>
+    <key>ru</key>
+    <value>Условия погашения задолженности сотрудниками</value>
+  </listPresentation>
+  <resources uuid="63b4ea63-027f-4cbf-bf9e-8ccae2406391">
+    <name>СпособОграничения</name>
+    <synonym>
+      <key>ru</key>
+      <value>Способ ограничения</value>
+    </synonym>
+    <type>
+      <types>EnumRef.СпособОграниченияВыплаты</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Способ определяет как именно будет корректироваться задолженность сотрудника</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:ReferenceValue">
+      <value>Enum.СпособыРасчетаУдержанияПоИсполнительномуДокументу.EnumValue.Процентом</value>
+    </fillValue>
+  </resources>
+  <resources uuid="16e5528c-4b59-42c8-a31f-09b45e3850a3">
+    <name>Размер</name>
+    <synonym>
+      <key>ru</key>
+      <value>Размер</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>15</precision>
+        <scale>2</scale>
+        <nonNegative>true</nonNegative>
+      </numberQualifiers>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Размер корректировки задолженности сотрудника</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <dimensions uuid="9d4cb518-8529-43e0-8193-30f178552cb1">
+    <name>Сотрудник</name>
+    <synonym>
+      <key>ru</key>
+      <value>Сотрудник</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Сотрудники</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <denyIncompleteValues>true</denyIncompleteValues>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="4a5b2692-683a-4029-802c-21db52597835">
+    <name>ДокументОснование</name>
+    <synonym>
+      <key>ru</key>
+      <value>Документ-основание</value>
+    </synonym>
+    <type>
+      <types>DefinedType.ДокументОснованиеЗарплатыКВыплате</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+</mdclass:InformationRegister>

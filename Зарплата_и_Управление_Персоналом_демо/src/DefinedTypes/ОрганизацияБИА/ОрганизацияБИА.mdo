@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DefinedType xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="cab7461b-bbe0-49fe-978f-36ec141d1cc9">
+  <producedTypes>
+    <containerType typeId="55dc54b3-a942-47c1-8368-10db25357743" valueTypeId="8715fa95-7d0e-4452-a05a-e339a0de39fc"/>
+  </producedTypes>
+  <name>ОрганизацияБИА</name>
+  <synonym>
+    <key>ru</key>
+    <value>Организация БИА</value>
+  </synonym>
+  <type>
+    <types>CatalogRef.Организации</types>
+  </type>
+</mdclass:DefinedType>

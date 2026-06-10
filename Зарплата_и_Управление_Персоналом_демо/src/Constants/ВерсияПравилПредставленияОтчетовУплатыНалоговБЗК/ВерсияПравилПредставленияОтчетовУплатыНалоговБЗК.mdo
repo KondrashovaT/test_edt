@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="55d44423-cd57-4bb5-8e8e-ef61ee15359a">
+  <producedTypes>
+    <managerType typeId="c47b48d8-6ea5-4903-b0bb-5d94fa68c6da" valueTypeId="9d770802-cf3a-4a98-b355-ae49736627d4"/>
+    <valueManagerType typeId="87e78426-3858-425a-90fc-4ec6a97b2cd5" valueTypeId="418241c0-beba-47bb-93b2-05306a530fdc"/>
+    <valueKeyType typeId="4a4bffc8-9c3b-41cb-9c50-1cdbc57bad1d" valueTypeId="93ca57c8-9311-4673-b896-b1fbf31e8ed5"/>
+  </producedTypes>
+  <name>ВерсияПравилПредставленияОтчетовУплатыНалоговБЗК</name>
+  <synonym>
+    <key>ru</key>
+    <value>Версия правил представления отчетов уплаты налогов БЗК</value>
+  </synonym>
+  <type>
+    <types>Number</types>
+    <numberQualifiers>
+      <precision>10</precision>
+    </numberQualifiers>
+  </type>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>

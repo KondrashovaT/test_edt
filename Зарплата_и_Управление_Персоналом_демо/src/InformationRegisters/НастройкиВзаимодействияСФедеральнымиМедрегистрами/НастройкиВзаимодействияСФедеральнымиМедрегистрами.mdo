@@ -1,0 +1,222 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="7cc94e84-f686-4e4a-8b5a-d338fbf16289">
+  <producedTypes>
+    <selectionType typeId="337fc408-0395-4076-8461-f3c74c7f2fa2" valueTypeId="3e8a2a96-510e-4543-8535-595a31d895d9"/>
+    <listType typeId="44908ab3-24d6-409d-bb26-cd506410d633" valueTypeId="e0f15bc6-27d7-4d83-b4a5-e92ac7505322"/>
+    <managerType typeId="7e973f7d-b4f3-4ae6-a7fd-fbaf58bd544d" valueTypeId="7cc158aa-0481-4ca5-a954-2d5adea1b464"/>
+    <recordSetType typeId="a45815cc-cd04-47d2-89f1-09adeb0b9ed8" valueTypeId="41168594-19a7-4e4b-a1b9-d53da7b630ed"/>
+    <recordKeyType typeId="5fa6887c-74bf-4a33-81e8-f48e8ed49f72" valueTypeId="9a2909b7-252e-4994-af23-dbe6c7b1076c"/>
+    <recordType typeId="94375ade-4928-4bf5-afad-a80c14f25a3f" valueTypeId="eddf0aec-104a-4e27-b10e-54a03b4f8d9b"/>
+    <recordManagerType typeId="7fc6eb01-a59c-4495-8ab7-4f33799c9126" valueTypeId="e1590100-1287-424e-b243-aca5c36b330e"/>
+  </producedTypes>
+  <name>НастройкиВзаимодействияСФедеральнымиМедрегистрами</name>
+  <synonym>
+    <key>ru</key>
+    <value>Настройки взаимодействия с федеральными медрегистрами</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <editType>InDialog</editType>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Active</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>LineNumber</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Recorder</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Period</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <resources uuid="d5f52554-c6f2-4e2f-9e65-fdfb4d7651e9">
+    <name>СпособПодключения</name>
+    <synonym>
+      <key>ru</key>
+      <value>Способ подключения</value>
+    </synonym>
+    <type>
+      <types>EnumRef.СпособыПодключенияКФедеральнымМедрегистрам</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="5347cc4f-7f60-4be2-9c72-076a39164d71">
+    <name>АдресСервиса</name>
+    <synonym>
+      <key>ru</key>
+      <value>Адрес сервиса</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>200</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:StringValue"/>
+  </resources>
+  <resources uuid="f52ba3ff-ab43-472b-8dd5-32444ee87cb3">
+    <name>АдресСервиса1СМедицинаРегион</name>
+    <synonym>
+      <key>ru</key>
+      <value>Адрес сервиса 1С:Медицина Регион</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>200</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:StringValue"/>
+  </resources>
+  <resources uuid="ab2ba967-ddd4-4148-8e9f-1c74a488a180">
+    <name>АдресСервиса1СЕГИСЗ</name>
+    <synonym>
+      <key>ru</key>
+      <value>Адрес сервиса 1С:ЕГИСЗ</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>200</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:StringValue"/>
+  </resources>
+  <resources uuid="f83b817e-6df2-49b4-b311-58ed926eccae">
+    <name>ИспользоватьПилотныйПроектПоЗП</name>
+    <synonym>
+      <key>ru</key>
+      <value>Подключиться к пилотному проекту по зарплате</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Подключиться к пилотному проекту по передаче данных о заработной плате медицинских работников.</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:BooleanValue"/>
+  </resources>
+  <resources uuid="b3282c83-1d09-4adb-a00f-b2759442d5e1">
+    <name>ИспользоватьАвтосопоставление1СЕГИСЗ</name>
+    <synonym>
+      <key>ru</key>
+      <value>Использовать автосопоставление 1С:ЕГИСЗ</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="7cf43c80-7591-4e14-8ba0-702342c210fd">
+    <name>УдалитьИспользовать1СМедицинаРегион</name>
+    <synonym>
+      <key>ru</key>
+      <value>(устарел) Использовать 1С:Медицина Регион</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:BooleanValue"/>
+  </resources>
+  <resources uuid="a8cf1c88-36fe-4922-9b28-c78d3e99e5f4">
+    <name>УдалитьИспользоватьТестовыйСервис</name>
+    <synonym>
+      <key>ru</key>
+      <value>(устарел) Использовать тестовый сервис</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:BooleanValue"/>
+  </resources>
+  <resources uuid="688f4243-5e93-4e37-9dc9-9ef9a1174a99">
+    <name>УдалитьАдресТестовогоСервиса</name>
+    <synonym>
+      <key>ru</key>
+      <value>(устарел) Удалить адрес тестового сервиса</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>200</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:StringValue"/>
+  </resources>
+  <resources uuid="b2d3d95d-3c5f-4d13-9528-8631fdd2a08e">
+    <name>УдалитьАдресТестовогоСервиса1СМедицинаРегион</name>
+    <synonym>
+      <key>ru</key>
+      <value>(удалить) Адрес тестового сервиса 1С:Медицина Регион</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>200</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:StringValue"/>
+  </resources>
+</mdclass:InformationRegister>

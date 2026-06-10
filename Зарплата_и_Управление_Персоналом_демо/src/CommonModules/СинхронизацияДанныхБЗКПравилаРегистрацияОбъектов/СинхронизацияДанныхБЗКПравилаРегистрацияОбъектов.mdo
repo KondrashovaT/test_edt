@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonModule xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="8724edc7-6b2c-4e0f-a305-ea6ec80abf2b">
+  <name>СинхронизацияДанныхБЗКПравилаРегистрацияОбъектов</name>
+  <synonym>
+    <key>ru</key>
+    <value>Синхронизация данных БЗК правила регистрация объектов</value>
+  </synonym>
+  <server>true</server>
+  <externalConnection>true</externalConnection>
+  <clientOrdinaryApplication>true</clientOrdinaryApplication>
+</mdclass:CommonModule>

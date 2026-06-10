@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:FunctionalOption xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="1f605cd1-8813-45b9-b034-bc13b265a58c">
+  <name>ИнтеграцияС1САрхивом</name>
+  <synonym>
+    <key>ru</key>
+    <value>Интеграция с 1С:Архивом</value>
+  </synonym>
+  <location>Constant.ИнтеграцияС1САрхивом</location>
+  <privilegedGetMode>true</privilegedGetMode>
+  <content>Enum.СтатусыОбменаС1САрхивом</content>
+  <content>Catalog.ПакетыДокументовДля1САрхива</content>
+  <content>ExchangePlan.ОбменНСИСАрхивом</content>
+  <content>InformationRegister.СообщенияДля1САрхива</content>
+  <content>Catalog.СотрудникиБИА</content>
+  <content>Constant.ПодтверждатьОтправкуПакетовВ1САрхив</content>
+  <content>Catalog.ВидыДокументовБИА</content>
+  <content>Catalog.ДокументыБИА</content>
+  <content>Catalog.ДокументыБИАПрисоединенныеФайлы</content>
+  <content>Catalog.РолиФайловБИА</content>
+  <content>InformationRegister.ДокументыОтправленныеВ1САрхив</content>
+  <content>InformationRegister.ИсторияОбменаС1САрхивом</content>
+  <content>InformationRegister.ОчередьОперацийСДокументамиДля1САрхива</content>
+  <content>InformationRegister.СтатусыОбменаДокументовБИА</content>
+</mdclass:FunctionalOption>

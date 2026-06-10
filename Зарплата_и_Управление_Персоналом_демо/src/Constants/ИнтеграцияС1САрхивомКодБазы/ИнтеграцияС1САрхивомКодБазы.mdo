@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="4301eacf-2397-484a-b07e-27e6b401e6a9">
+  <producedTypes>
+    <managerType typeId="74910299-9e05-4d92-8c06-e482ba029f29" valueTypeId="317f387a-5df5-4cd8-985e-5296715efcf9"/>
+    <valueManagerType typeId="3d8cdc47-0e12-42ed-941b-504681b6c7f4" valueTypeId="a5c6d6a7-aeed-4927-880a-8ca92e1b151b"/>
+    <valueKeyType typeId="9fda77a7-80e6-42e9-80ff-fabae5c7c8a9" valueTypeId="8a856eec-b034-4f11-ad1b-8d73ead2444f"/>
+  </producedTypes>
+  <name>ИнтеграцияС1САрхивомКодБазы</name>
+  <synonym>
+    <key>ru</key>
+    <value>Код для обмена с 1С:Архивом</value>
+  </synonym>
+  <type>
+    <types>String</types>
+    <stringQualifiers>
+      <length>3</length>
+      <fixed>true</fixed>
+    </stringQualifiers>
+  </type>
+  <useStandardCommands>true</useStandardCommands>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>

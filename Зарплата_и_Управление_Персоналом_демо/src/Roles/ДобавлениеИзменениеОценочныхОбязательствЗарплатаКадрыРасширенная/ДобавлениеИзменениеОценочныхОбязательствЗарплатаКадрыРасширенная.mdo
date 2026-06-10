@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Role xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="0ea48875-011e-4069-a1da-e944af53ef47">
+  <name>ДобавлениеИзменениеОценочныхОбязательствЗарплатаКадрыРасширенная</name>
+  <synonym>
+    <key>ru</key>
+    <value>Добавление изменение оценочных обязательств зарплата кадры расширенная</value>
+  </synonym>
+</mdclass:Role>

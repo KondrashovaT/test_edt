@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:FunctionalOption xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="301a9fc3-289c-4b56-aaad-b0458542148f">
+  <name>ИспользоватьБронированиеКомандировок</name>
+  <synonym>
+    <key>ru</key>
+    <value>Использовать бронирование командировок</value>
+  </synonym>
+  <location>Constant.ИспользоватьБронированиеКомандировок</location>
+  <privilegedGetMode>true</privilegedGetMode>
+  <content>InformationRegister.БронированиеКомандировок</content>
+  <content>InformationRegister.ВерсияЗаказаБронированияКомандировки</content>
+</mdclass:FunctionalOption>

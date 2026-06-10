@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonCommand xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="ef9f8d36-0e06-4a4b-a3c6-7293540ead12">
+  <name>ОтправкаУведомленийОНачалеОтпуска</name>
+  <synonym>
+    <key>ru</key>
+    <value>Отправка уведомлений о начале отпуска</value>
+  </synonym>
+  <group>CommandGroup.НовостиСервис</group>
+  <representation>Auto</representation>
+</mdclass:CommonCommand>

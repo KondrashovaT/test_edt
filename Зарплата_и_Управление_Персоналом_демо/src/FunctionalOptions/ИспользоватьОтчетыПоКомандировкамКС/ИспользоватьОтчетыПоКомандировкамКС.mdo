@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:FunctionalOption xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="bbcb2216-1b1d-4636-945c-cf92ccbade26">
+  <name>ИспользоватьОтчетыПоКомандировкамКС</name>
+  <synonym>
+    <key>ru</key>
+    <value>Использовать отчеты по командировкам КС</value>
+  </synonym>
+  <location>InformationRegister.НастройкиКабинетСотрудника.Resource.ОтчетыОбИтогахКомандировки</location>
+  <privilegedGetMode>true</privilegedGetMode>
+  <content>Document.ОтчетПоКомандировкеКабинетСотрудника</content>
+</mdclass:FunctionalOption>

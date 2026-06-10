@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonModule xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="c53c2737-2753-4a70-93f0-74b0b35d59c4">
+  <name>МедицинскиеРегистрыФормы</name>
+  <synonym>
+    <key>ru</key>
+    <value>Медицинские регистры формы</value>
+  </synonym>
+  <server>true</server>
+  <externalConnection>true</externalConnection>
+  <clientOrdinaryApplication>true</clientOrdinaryApplication>
+</mdclass:CommonModule>

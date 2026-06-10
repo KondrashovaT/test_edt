@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="e7a9e51d-012c-472e-b8d4-6c36160c0e72">
+  <name>Медицина</name>
+  <synonym>
+    <key>ru</key>
+    <value>Медицина</value>
+  </synonym>
+  <includeHelpInContents>true</includeHelpInContents>
+  <content>InformationRegister.СвойстваДолжностейМедицинскихРаботников</content>
+  <content>DataProcessor.ПечатьКадровыхПриказовМедицинскихОрганизаций</content>
+  <content>CommonModule.МедицинаКлиент</content>
+  <content>CommonModule.Медицина</content>
+  <content>InformationRegister.СпециальныеУсловияЗанятостиДолжностей</content>
+  <content>DataProcessor.ПанельНастроекФедеральныеМедрегистры</content>
+  <subsystems>СертификатыПоСпециальностиФизическихЛиц</subsystems>
+  <subsystems>ФедеральныйРегистрМедицинскихРаботников</subsystems>
+  <parentSubsystem>Subsystem.ЗарплатаКадрыПриложения</parentSubsystem>
+</mdclass:Subsystem>

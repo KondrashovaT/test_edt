@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="e24c44bd-93a3-4c3d-8554-3d11ad12b553">
+  <name>ИнтеграцияSmartway</name>
+  <synonym>
+    <key>ru</key>
+    <value>Интеграция Smartway</value>
+  </synonym>
+  <includeHelpInContents>true</includeHelpInContents>
+  <content>CommonModule.ИнтеграцияSmartwayКлиент</content>
+  <content>CommonModule.ИнтеграцияSmartwayРасширенный</content>
+  <parentSubsystem>Subsystem.ЗарплатаКадрыРасширеннаяПодсистемы.Subsystem.БронированиеКомандировок</parentSubsystem>
+</mdclass:Subsystem>

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="ca09973f-f247-489d-8500-f7235afbf5f6">
+  <name>ИнтеграцияС1САрхивомЗарплатаКадры</name>
+  <synonym>
+    <key>ru</key>
+    <value>Интеграция с 1С:Архивом зарплата и кадры</value>
+  </synonym>
+  <includeHelpInContents>true</includeHelpInContents>
+  <content>Constant.ПапкаФайлов1САрхива</content>
+  <content>CommonModule.ИнтеграцияС1САрхивом</content>
+  <content>CommonModule.ИнтеграцияС1САрхивомКлиент</content>
+  <content>InformationRegister.СведенияОФайлах1САрхив</content>
+  <content>CommonModule.ИнтеграцияС1САрхивомВнутренний</content>
+  <content>CommonModule.ИнтеграцияС1САрхивомБазовый</content>
+  <content>CommonModule.ИнтеграцияС1САрхивомВызовСервера</content>
+  <parentSubsystem>Subsystem.ЗарплатаКадрыПриложения</parentSubsystem>
+</mdclass:Subsystem>

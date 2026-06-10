@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DefinedType xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="ec550345-88b5-4109-bf08-edc7ccae081a">
+  <producedTypes>
+    <containerType typeId="8823613d-654c-454f-91e3-5c86f58d99b9" valueTypeId="a0798532-dc2b-4fdb-96f7-aaa1dee8cfb8"/>
+  </producedTypes>
+  <name>СсылкаНаИнтегрируемыйОбъектБИА</name>
+  <synonym>
+    <key>ru</key>
+    <value>Ссылки на все объекты, из которых формируются документы для 1С:Архива</value>
+  </synonym>
+  <type>
+    <types>DocumentRef.ОплатаПоСреднемуЗаработкуСписком</types>
+    <types>DocumentRef.ИзменениеУсловийОплатыОтпускаПоУходуЗаРебенком</types>
+    <types>CatalogRef.Сотрудники</types>
+    <types>DocumentRef.ВедомостьНаВыплатуЗарплатыРаздатчиком</types>
+    <types>DocumentRef.КадровыйПеревод</types>
+    <types>DocumentRef.ПростойСотрудников</types>
+    <types>DocumentRef.ОтпускБезСохраненияОплатыСписком</types>
+    <types>DocumentRef.ИзменениеГрафикаРаботыСписком</types>
+    <types>DocumentRef.Совмещение</types>
+    <types>DocumentRef.Отпуск</types>
+    <types>DocumentRef.ИзменениеКвалификационногоРазряда</types>
+    <types>DocumentRef.БольничныйЛист</types>
+    <types>DocumentRef.ПриостановлениеТрудовыхДоговоровКонтрактов</types>
+    <types>CatalogRef.Файлы</types>
+    <types>DocumentRef.ОплатаПоСреднемуЗаработку</types>
+    <types>DocumentRef.ОтгулСписком</types>
+    <types>DocumentRef.ВозобновлениеТрудовыхДоговоровКонтрактов</types>
+    <types>DocumentRef.ОплатаДнейУходаЗаДетьмиИнвалидами</types>
+    <types>CatalogRef.РегламентированныйОтчетПрисоединенныеФайлы</types>
+    <types>DocumentRef.ВедомостьНаВыплатуЗарплатыПеречислением</types>
+    <types>DocumentRef.Увольнение</types>
+    <types>DocumentRef.ВосстановлениеВДолжности</types>
+    <types>DocumentRef.ВедомостьНаВыплатуЗарплатыВБанк</types>
+    <types>DocumentRef.ТабельУчетаРабочегоВремени</types>
+    <types>DocumentRef.ОтпускБезСохраненияОплаты</types>
+    <types>DocumentRef.ВозвратИзОтпускаПоУходуЗаРебенком</types>
+    <types>DocumentRef.ПрогулНеявка</types>
+    <types>DocumentRef.РегламентированныйОтчет</types>
+    <types>DocumentRef.КомандировкиСотрудников</types>
+    <types>DocumentRef.КадровыйПереводСписком</types>
+    <types>DocumentRef.ПрогулНеявкаСписком</types>
+    <types>DocumentRef.ПриемНаРаботу</types>
+    <types>DocumentRef.Командировка</types>
+    <types>DocumentRef.УвольнениеСписком</types>
+    <types>DocumentRef.МатериальнаяПомощь</types>
+    <types>DocumentRef.ОтпускаСотрудников</types>
+    <types>DocumentRef.ОтменаСовмещения</types>
+    <types>DocumentRef.Отгул</types>
+    <types>DocumentRef.ОтпускПоУходуЗаРебенком</types>
+    <types>DocumentRef.ВедомостьНаВыплатуЗарплатыВКассу</types>
+    <types>DocumentRef.ПриемНаРаботуСписком</types>
+  </type>
+</mdclass:DefinedType>

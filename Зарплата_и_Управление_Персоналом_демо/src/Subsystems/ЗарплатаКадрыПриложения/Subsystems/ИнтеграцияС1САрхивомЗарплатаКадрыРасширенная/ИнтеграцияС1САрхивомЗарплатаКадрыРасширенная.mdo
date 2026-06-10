@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="c2945746-2d37-422c-b162-48c7703308f0">
+  <name>ИнтеграцияС1САрхивомЗарплатаКадрыРасширенная</name>
+  <synonym>
+    <key>ru</key>
+    <value>Интеграция с 1С:Архивом зарплата и кадры расширенная</value>
+  </synonym>
+  <includeHelpInContents>true</includeHelpInContents>
+  <content>CommonModule.ИнтеграцияС1САрхивомРасширенный</content>
+  <parentSubsystem>Subsystem.ЗарплатаКадрыПриложения</parentSubsystem>
+</mdclass:Subsystem>

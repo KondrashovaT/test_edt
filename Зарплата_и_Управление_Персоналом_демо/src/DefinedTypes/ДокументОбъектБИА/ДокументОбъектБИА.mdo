@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DefinedType xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="de9c9cfa-0880-4cd8-802e-7195fdd91d85">
+  <producedTypes>
+    <containerType typeId="b7f786f0-6d3a-4885-a1d8-bea8c52a425d" valueTypeId="1e3a6074-37c5-49b4-9411-bf47f6a6c02b"/>
+  </producedTypes>
+  <name>ДокументОбъектБИА</name>
+  <synonym>
+    <key>ru</key>
+    <value>Документы (объекты), из которых формируются документы для 1С:Архива</value>
+  </synonym>
+  <type>
+    <types>DocumentObject.ПрогулНеявкаСписком</types>
+    <types>DocumentObject.ВосстановлениеВДолжности</types>
+    <types>DocumentObject.ОплатаДнейУходаЗаДетьмиИнвалидами</types>
+    <types>DocumentObject.ОтпускаСотрудников</types>
+    <types>DocumentObject.ВозвратИзОтпускаПоУходуЗаРебенком</types>
+    <types>DocumentObject.ИзменениеКвалификационногоРазряда</types>
+    <types>DocumentObject.ПриостановлениеТрудовыхДоговоровКонтрактов</types>
+    <types>DocumentObject.ОплатаПоСреднемуЗаработку</types>
+    <types>DocumentObject.ВозобновлениеТрудовыхДоговоровКонтрактов</types>
+    <types>DocumentObject.ПриемНаРаботуСписком</types>
+    <types>DocumentObject.КадровыйПеревод</types>
+    <types>DocumentObject.ОтпускБезСохраненияОплаты</types>
+    <types>DocumentObject.УвольнениеСписком</types>
+    <types>DocumentObject.ТабельУчетаРабочегоВремени</types>
+    <types>DocumentObject.ВедомостьНаВыплатуЗарплатыРаздатчиком</types>
+    <types>DocumentObject.ВедомостьНаВыплатуЗарплатыПеречислением</types>
+    <types>DocumentObject.ВедомостьНаВыплатуЗарплатыВБанк</types>
+    <types>DocumentObject.ИзменениеГрафикаРаботыСписком</types>
+    <types>DocumentObject.ОтпускБезСохраненияОплатыСписком</types>
+    <types>DocumentObject.ПростойСотрудников</types>
+    <types>DocumentObject.ОтгулСписком</types>
+    <types>DocumentObject.ОтменаСовмещения</types>
+    <types>DocumentObject.ИзменениеУсловийОплатыОтпускаПоУходуЗаРебенком</types>
+    <types>DocumentObject.КадровыйПереводСписком</types>
+    <types>DocumentObject.Совмещение</types>
+    <types>DocumentObject.БольничныйЛист</types>
+    <types>DocumentObject.Командировка</types>
+    <types>DocumentObject.КомандировкиСотрудников</types>
+    <types>DocumentObject.Отгул</types>
+    <types>DocumentObject.Отпуск</types>
+    <types>DocumentObject.ОплатаПоСреднемуЗаработкуСписком</types>
+    <types>DocumentObject.МатериальнаяПомощь</types>
+    <types>DocumentObject.ПриемНаРаботу</types>
+    <types>DocumentObject.ПрогулНеявка</types>
+    <types>DocumentObject.Увольнение</types>
+    <types>DocumentObject.РегламентированныйОтчет</types>
+    <types>DocumentObject.ОтпускПоУходуЗаРебенком</types>
+    <types>DocumentObject.ВедомостьНаВыплатуЗарплатыВКассу</types>
+  </type>
+</mdclass:DefinedType>

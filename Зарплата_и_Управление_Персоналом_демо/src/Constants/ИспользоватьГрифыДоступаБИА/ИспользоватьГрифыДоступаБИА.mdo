@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="bde7409e-3c18-48ee-ad22-c2ed4b880b2b">
+  <producedTypes>
+    <managerType typeId="a9320656-7fe4-4508-86c6-f5c5b4e6b994" valueTypeId="4aa85388-5120-4120-9b31-ff7425fbc856"/>
+    <valueManagerType typeId="dfe4b5ad-3db8-4a1d-ab0c-4d2df6cf75b0" valueTypeId="c2b22f8b-4e20-4100-b374-f9acfc051f5a"/>
+    <valueKeyType typeId="999acc85-7414-42f2-9fbc-28e1b31b131b" valueTypeId="2a625155-2180-4e54-9d42-5b43e5db39f5"/>
+  </producedTypes>
+  <name>ИспользоватьГрифыДоступаБИА</name>
+  <synonym>
+    <key>ru</key>
+    <value>Использовать грифы доступа БИА</value>
+  </synonym>
+  <type>
+    <types>Boolean</types>
+  </type>
+  <useStandardCommands>true</useStandardCommands>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>

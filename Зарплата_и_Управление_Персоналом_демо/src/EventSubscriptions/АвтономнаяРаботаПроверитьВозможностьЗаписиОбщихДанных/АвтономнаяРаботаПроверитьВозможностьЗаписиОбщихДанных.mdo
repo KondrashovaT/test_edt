@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:EventSubscription xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="4e36184e-d818-4f38-9257-6d91d9cc85ae">
+  <name>АвтономнаяРаботаПроверитьВозможностьЗаписиОбщихДанных</name>
+  <synonym>
+    <key>ru</key>
+    <value>Автономная работа проверить возможность записи общих данных</value>
+  </synonym>
+  <source>
+    <types>CatalogObject.ВидыДоходовНДФЛ</types>
+    <types>CatalogObject.ОснованияЗаключенияСрочныхТрудовыхДоговоров</types>
+    <types>CatalogObject.КодыДокументовКадровыхМероприятий</types>
+    <types>CatalogObject.КлассификаторБанков</types>
+    <types>CatalogObject.ОсобыеУсловияТрудаДляСЗВКПФР</types>
+    <types>CatalogObject.СтрокиОтчетностиМониторингаРаботниковСоциальнойСферы</types>
+    <types>CatalogObject.КлассификаторЗанятий</types>
+    <types>CatalogObject.ЭлементыКлассификаторовМедРегистра</types>
+    <types>CatalogObject.СостояниеВБраке</types>
+    <types>CatalogObject.ОтраслиНауки</types>
+    <types>CatalogObject.ВидыДоходовПоСтраховымВзносам</types>
+    <types>CatalogObject.ОснованияИсчисляемогоСтраховогоСтажа</types>
+    <types>CatalogObject.КатегорииПолучателейСтимулирующихВыплатФСС</types>
+    <types>CatalogObject.СтрокиОтчетностиРасходовИЧисленностиРаботниковГосударственныхОрганов</types>
+    <types>CatalogObject.УченыеЗвания</types>
+    <types>CatalogObject.ОснованияПриостановленияТрудовыхДоговоровКонтрактов</types>
+    <types>CatalogObject.ТерриторииСПовышающимКоэффициентомПоКоронавирусу</types>
+    <types>CatalogObject.ВидыТарифовСтраховыхВзносов</types>
+    <types>CatalogObject.СтепениЗнанияЯзыка</types>
+    <types>CatalogObject.ОснованияДосрочногоНазначенияПенсииДляСЗВК</types>
+    <types>CatalogObject.СтепениРодстваФизическихЛиц</types>
+    <types>CatalogObject.СтатусыНалогоплательщиковПоНДФЛ</types>
+    <types>CatalogObject.ЯзыкиНародовМира</types>
+    <types>CatalogObject.ВидыОбщественноПолезнойДеятельностиСЗВК</types>
+    <types>CatalogObject.ПараметрыИсчисляемогоСтраховогоСтажа</types>
+    <types>CatalogObject.ЗамещениеГосударственныхМуниципальныхДолжностейПФР</types>
+    <types>CatalogObject.ОснованияУвольнения</types>
+    <types>CatalogObject.ПравилаПредставленияОтчетовУплатыНалогов</types>
+    <types>CatalogObject.ОсобыеУсловияТрудаПФР</types>
+    <types>CatalogObject.ОснованияДосрочногоНазначенияПенсии</types>
+    <types>CatalogObject.ПредопределенныеВариантыОтчетов</types>
+    <types>CatalogObject.ЗадачиБухгалтера</types>
+    <types>CatalogObject.ПроизводственныеКалендари</types>
+    <types>CatalogObject.УченыеСтепени</types>
+    <types>CatalogObject.ВидыВычетовНДФЛ</types>
+    <types>CatalogObject.РегламентированныеОтчеты</types>
+    <types>CatalogObject.ТерриториальныеУсловияПФР</types>
+    <types>CatalogObject.ПричиныУвольненияПФР</types>
+    <types>CatalogObject.ВидыОбразованияФизическихЛиц</types>
+    <types>CatalogObject.КлассификаторыМедРегистра</types>
+  </source>
+  <event>BeforeWrite</event>
+  <handler>CommonModule.ОбменДаннымиВМоделиСервиса.ПередЗаписьюОбщихДанных</handler>
+</mdclass:EventSubscription>

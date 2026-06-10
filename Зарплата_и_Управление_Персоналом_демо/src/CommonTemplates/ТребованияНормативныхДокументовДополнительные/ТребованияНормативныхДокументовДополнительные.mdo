@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonTemplate xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="57770cba-611a-4d4f-8009-8bec3a71a3f8">
+  <name>ТребованияНормативныхДокументовДополнительные</name>
+  <synonym>
+    <key>ru</key>
+    <value>Требования нормативных документов дополнительные</value>
+  </synonym>
+  <templateType>TextDocument</templateType>
+</mdclass:CommonTemplate>

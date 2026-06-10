@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="6df25cda-80c7-46a0-ad0c-4b58194e4ca4">
+  <name>УведомленияОНачалеОтпусков</name>
+  <synonym>
+    <key>ru</key>
+    <value>Уведомления о начале отпусков</value>
+  </synonym>
+  <includeHelpInContents>true</includeHelpInContents>
+  <content>Document.УведомлениеОНачалеОтпуска</content>
+  <content>Catalog.УведомлениеОНачалеОтпускаПрисоединенныеФайлы</content>
+  <content>FunctionalOption.ИспользоватьУведомлениеОНачалеОтпуска</content>
+  <content>CommonCommand.ОтправкаУведомленийОНачалеОтпуска</content>
+  <content>CommonModule.УведомленияОНачалеОтпусков</content>
+  <content>CommonModule.УведомленияОНачалеОтпусковКлиент</content>
+  <content>Role.ДобавлениеИзменениеУведомленийОНачалеОтпуска</content>
+  <content>Role.ЧтениеУведомленийОНачалеОтпуска</content>
+  <content>FunctionalOption.ТребуетсяПодписьУведомленияОНачалеОтпускаСоСтороныРаботодателя</content>
+  <parentSubsystem>Subsystem.ЗарплатаКадрыРасширеннаяПодсистемы.Subsystem.ИнтеграцияУправлениеПерсоналомРасширенная</parentSubsystem>
+</mdclass:Subsystem>

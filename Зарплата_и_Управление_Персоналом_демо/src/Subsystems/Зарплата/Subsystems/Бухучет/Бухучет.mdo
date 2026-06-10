@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="c2394b26-d0e8-428a-97f6-a7998cc9c795">
+  <name>Бухучет</name>
+  <synonym>
+    <key>ru</key>
+    <value>Бухучет</value>
+  </synonym>
+  <includeHelpInContents>true</includeHelpInContents>
+  <includeInCommandInterface>true</includeInCommandInterface>
+  <content>Document.ОтражениеЗарплатыВБухучете</content>
+  <content>Document.РаспределениеОсновногоЗаработка</content>
+  <content>Document.БухучетНачисленийСотрудников</content>
+  <content>Document.ПереносЗатратНаПерсоналМеждуСтатьями</content>
+  <content>Report.ДанныеДляОтраженияРасчетовЗарплатыВБухучете</content>
+  <content>Document.НачислениеОценочныхОбязательствПоОтпускам</content>
+  <content>Document.ОтражениеУдержанногоНДФЛВБухучете</content>
+  <content>Report.СправкаРасчетРезервыОтпусков</content>
+  <content>Report.НастройкиБухучета</content>
+  <content>Document.РезервыПоОплатеТруда</content>
+  <content>Report.ДанныеДляОтраженияВБухучете</content>
+  <content>Document.БухучетЗарплатыСотрудников</content>
+  <content>Document.ОтражениеСтатистикиПерсоналаВБухучете</content>
+  <content>Report.ДанныеДляОтраженияРасчетовРезервовПоОплатеТрудаВБухучете</content>
+  <content>Report.ДанныеДляОтраженияУдержанногоНДФЛВБухучете</content>
+  <content>Document.ПереносРезервовМеждуСтатьямиФинансирования</content>
+  <parentSubsystem>Subsystem.Зарплата</parentSubsystem>
+</mdclass:Subsystem>

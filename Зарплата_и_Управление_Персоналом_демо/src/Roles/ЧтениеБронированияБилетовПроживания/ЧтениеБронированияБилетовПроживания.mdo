@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Role xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="96581379-9f68-4feb-87f0-3c98c48c6c0a">
+  <name>ЧтениеБронированияБилетовПроживания</name>
+  <synonym>
+    <key>ru</key>
+    <value>Чтение бронирования билетов проживания</value>
+  </synonym>
+</mdclass:Role>

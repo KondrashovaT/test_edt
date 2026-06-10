@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="d6c2debf-3748-4601-94cc-2ac95516309b">
+  <producedTypes>
+    <refType typeId="f7bb6fa0-41e3-45d2-8451-fd2cf99efdce" valueTypeId="19c38556-348b-48ca-bccd-30150d245476"/>
+    <listType typeId="9d1758a1-c906-45a4-b3ce-a1813bda04c5" valueTypeId="a8522b22-612b-4278-a3d2-76ece1346584"/>
+    <managerType typeId="14dede40-f516-4947-b34c-eeac5371b02f" valueTypeId="627d75a2-e700-4704-be4f-e0785e953ce0"/>
+  </producedTypes>
+  <name>ВидыДокументовБронированияБилетовПроживания</name>
+  <synonym>
+    <key>ru</key>
+    <value>Виды документов бронирования билетов проживания</value>
+  </synonym>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Order</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Ref</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="6a593cb6-d14e-4bdf-b9be-6550a0328686">
+    <name>ВнутреннийПаспорт</name>
+    <synonym>
+      <key>ru</key>
+      <value>Внутренний паспорт</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="187a0fbf-3836-4286-9f32-cc6d2eceef26">
+    <name>ЗаграничныйПаспорт</name>
+    <synonym>
+      <key>ru</key>
+      <value>Заграничный паспорт</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="067a0cee-5c4f-4e5e-9e88-e805ba12e941">
+  <name>ТерриторииИПомещения</name>
+  <synonym>
+    <key>ru</key>
+    <value>Территории и помещения</value>
+  </synonym>
+  <includeHelpInContents>true</includeHelpInContents>
+  <content>CommonModule.ТерриторииИПомещения</content>
+  <content>CommonModule.ТерриторииИПомещенияВызовСервера</content>
+  <content>CommonModule.ТерриторииИПомещенияКлиент</content>
+  <content>Catalog.ТерриторииИПомещения</content>
+  <content>Role.ДобавлениеИзменениеТерриторийИПомещений</content>
+  <content>CommonPicture.СхемаТерритории</content>
+  <content>StyleItem.ВыделениеТекстаВСпискеВыбораШрифт</content>
+  <content>StyleItem.ВыделениеТекстаВСпискеВыбораЦвет</content>
+  <content>StyleItem.ВспомогательныйТекстТерриторий</content>
+  <parentSubsystem>Subsystem.ЗарплатаКадрыРасширеннаяПодсистемы</parentSubsystem>
+</mdclass:Subsystem>

@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:EventSubscription xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="3893a258-a9c7-441a-b80c-1cc8c3f4735c">
+  <name>АвтономнаяРаботаПроверитьВозможностьЗаписиОбщихДанныхНаборЗаписей</name>
+  <synonym>
+    <key>ru</key>
+    <value>Автономная работа проверить возможность записи общих данных набор записей</value>
+  </synonym>
+  <source>
+    <types>InformationRegisterRecordSet.ДанныеПроизводственногоКалендаря</types>
+    <types>InformationRegisterRecordSet.РазмерыГосударственныхПособий</types>
+    <types>InformationRegisterRecordSet.СтавкаРефинансированияЦБ</types>
+    <types>InformationRegisterRecordSet.РазмерВычетовНДФЛ</types>
+    <types>InformationRegisterRecordSet.КэшДанныхПоставляемыхНастроек</types>
+    <types>InformationRegisterRecordSet.СтраховыеВзносыСкидкиКДоходам</types>
+    <types>InformationRegisterRecordSet.КлассификаторыМЧД</types>
+    <types>InformationRegisterRecordSet.МаксимальныйРазмерЕжемесячнойСтраховойВыплаты</types>
+    <types>InformationRegisterRecordSet.МинимальнаяОплатаТрудаРФ</types>
+    <types>InformationRegisterRecordSet.ТарифыВзносовПоРезультатамСпециальнойОценкиУсловийТруда</types>
+    <types>InformationRegisterRecordSet.ТарифыВзносовЗаЗанятыхНаРаботахСДосрочнойПенсией</types>
+    <types>InformationRegisterRecordSet.ВычетыПоДоходамНДФЛ</types>
+    <types>InformationRegisterRecordSet.ТарифыСтраховыхВзносов</types>
+    <types>InformationRegisterRecordSet.ДанныеОКВЭД</types>
+    <types>InformationRegisterRecordSet.ВерсииПоставляемыхНастроек</types>
+    <types>InformationRegisterRecordSet.ДопустимыеСочетанияКодовГруппСтажа</types>
+    <types>InformationRegisterRecordSet.ПредельнаяВеличинаБазыСтраховыхВзносов</types>
+    <types>InformationRegisterRecordSet.ДанныеПроизводственногоКалендаряПомесячно</types>
+    <types>InformationRegisterRecordSet.ДатыВступленияВСилуНА</types>
+    <types>InformationRegisterRecordSet.ПериодыНерабочихДнейКалендаря</types>
+  </source>
+  <event>BeforeWrite</event>
+  <handler>CommonModule.ОбменДаннымиВМоделиСервиса.ПередЗаписьюОбщихДанных</handler>
+</mdclass:EventSubscription>

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="d02334d7-48d9-4017-afad-49e4708acef9">
+  <producedTypes>
+    <managerType typeId="d47778f8-f26b-4ce6-b921-d976dfbd4ca9" valueTypeId="385a51ef-4a8e-4812-8790-cdb78edfd665"/>
+    <valueManagerType typeId="2ef87ee1-594a-432c-bd1f-8e892a74e550" valueTypeId="db3537c1-2f48-4014-9bae-b526d77065b0"/>
+    <valueKeyType typeId="5895008c-f5d3-4086-9c8f-673d50b2f303" valueTypeId="0ca33d71-3a73-4bfd-9dec-9ac2f162a603"/>
+  </producedTypes>
+  <name>МаксимальноеКоличествоДокументовВПакетеДля1САрхива</name>
+  <synonym>
+    <key>ru</key>
+    <value>Максимальное количество документов в пакете для 1С:Архива</value>
+  </synonym>
+  <type>
+    <types>Number</types>
+    <numberQualifiers>
+      <precision>10</precision>
+    </numberQualifiers>
+  </type>
+  <useStandardCommands>true</useStandardCommands>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>

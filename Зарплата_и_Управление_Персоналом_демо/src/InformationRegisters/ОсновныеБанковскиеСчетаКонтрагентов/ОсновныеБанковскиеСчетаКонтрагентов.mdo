@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="bfd42000-0d1b-41a8-8a2d-a976f73dbd4b">
+  <producedTypes>
+    <selectionType typeId="d6531834-8ffe-4185-8858-bf28abea65ad" valueTypeId="ff0bfab6-9ffb-41b0-8a73-36a2c1211b3c"/>
+    <listType typeId="34715a85-3da9-40ea-9bc3-3db107ece705" valueTypeId="50efaaaf-8960-4947-8c6c-29173a645851"/>
+    <managerType typeId="635cd1d9-bb54-4f04-956e-aeb71605101e" valueTypeId="cfd1a19b-f7d5-4a78-a685-42049cac93cd"/>
+    <recordSetType typeId="b7a22c2f-f092-4e32-a54f-f0f4eac2c5a8" valueTypeId="a36d63fa-6d15-49ee-b17b-49b07f415b8b"/>
+    <recordKeyType typeId="c6c6cdbd-ca4a-4e9a-8a5a-f04092683dc5" valueTypeId="04ecd91e-6afa-4942-936a-7b0d4d121664"/>
+    <recordType typeId="7161dc02-88d1-4561-86e3-59ca9a198373" valueTypeId="0bba93c9-e9b2-42ee-a994-75c43aac3cf7"/>
+    <recordManagerType typeId="d31d8936-91ed-4ee6-a696-26e83050f00e" valueTypeId="2fad9923-f5f9-4e0c-afce-1e6efa016e83"/>
+  </producedTypes>
+  <name>ОсновныеБанковскиеСчетаКонтрагентов</name>
+  <synonym>
+    <key>ru</key>
+    <value>Основные банковские счета контрагентов</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <editType>InDialog</editType>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Active</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>LineNumber</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Recorder</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Period</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <resources uuid="f014f8bd-6af3-49a8-8e50-69af7387dc12">
+    <name>БанковскийСчетКонтрагента</name>
+    <synonym>
+      <key>ru</key>
+      <value>Банковский счет контрагента</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.БанковскиеСчетаКонтрагентов</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <dimensions uuid="d4038dc8-3eac-44ac-8087-95689aede633">
+    <name>Контрагент</name>
+    <synonym>
+      <key>ru</key>
+      <value>Контрагент</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.ФизическиеЛица</types>
+      <types>CatalogRef.Контрагенты</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+</mdclass:InformationRegister>

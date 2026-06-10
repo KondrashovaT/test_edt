@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="cd061d4c-d561-49f8-b11d-ea265a242d7a">
+  <name>КомандировкиКабинетСотрудника</name>
+  <synonym>
+    <key>ru</key>
+    <value>Командировки (1С:Кабинет сотрудника)</value>
+  </synonym>
+  <includeInCommandInterface>true</includeInCommandInterface>
+  <content>Document.ОтчетПоКомандировкеКабинетСотрудника</content>
+  <content>Document.РасходыВКомандировкеКабинетСотрудника</content>
+  <content>Document.БронированиеБилетовПроживания</content>
+  <parentSubsystem>Subsystem.Кадры</parentSubsystem>
+</mdclass:Subsystem>

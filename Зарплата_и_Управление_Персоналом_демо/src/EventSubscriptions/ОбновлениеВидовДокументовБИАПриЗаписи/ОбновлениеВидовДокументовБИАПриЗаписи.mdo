@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:EventSubscription xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="6dc28f64-c476-4491-9b74-908da9278e29">
+  <name>ОбновлениеВидовДокументовБИАПриЗаписи</name>
+  <synonym>
+    <key>ru</key>
+    <value>Обновление видов документов БИА при записи</value>
+  </synonym>
+  <source>
+    <types>CatalogObject.ИдентификаторыОбъектовМетаданных</types>
+  </source>
+  <event>OnWrite</event>
+  <handler>CommonModule.ОбменСАрхивомПереопределяемый.ОбновлениеВидовДокументовБИАПриЗаписи</handler>
+</mdclass:EventSubscription>

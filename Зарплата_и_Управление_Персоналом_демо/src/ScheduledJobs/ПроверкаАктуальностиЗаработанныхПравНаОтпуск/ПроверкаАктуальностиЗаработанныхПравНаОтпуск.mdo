@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:ScheduledJob xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="99eb2422-eb44-4385-a797-c8d45f0e5695">
+  <name>ПроверкаАктуальностиЗаработанныхПравНаОтпуск</name>
+  <synonym>
+    <key>ru</key>
+    <value>Проверка актуальности заработанных прав на отпуск</value>
+  </synonym>
+  <methodName>CommonModule.ИнтеграцияКабинетСотрудникаРасширенный.ПроверкаАктуальностиЗаработанныхПравНаОтпуск</methodName>
+  <key>ПроверкаАктуальностиЗаработанныхПравНаОтпуск</key>
+  <predefined>true</predefined>
+  <restartCountOnFailure>3</restartCountOnFailure>
+  <restartIntervalOnFailure>10</restartIntervalOnFailure>
+</mdclass:ScheduledJob>

@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="0579df63-0e37-4815-9704-73f437f911cf">
+  <producedTypes>
+    <refType typeId="7b7c2b1e-a16d-41e6-8813-8723fe3008c1" valueTypeId="34394fcd-e36f-454c-8c04-fa11f03a75e2"/>
+    <listType typeId="01ca9201-c16c-4a8a-8f77-1cc314e0a570" valueTypeId="bed9d27c-cece-41b3-bc44-9bd70119f612"/>
+    <managerType typeId="5effddd3-17a1-4ae0-ad06-58fd94c6e61a" valueTypeId="ed6ea0b3-aa0b-45e3-8c6d-bb15d6c5c85f"/>
+  </producedTypes>
+  <name>ВидыПлательщиковДивидендов</name>
+  <synonym>
+    <key>ru</key>
+    <value>Виды плательщиков дивидендов</value>
+  </synonym>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Order</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Ref</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="5d701757-f552-4b83-a0ed-2f86229648b1">
+    <name>ИностраннаяОрганизация</name>
+    <synonym>
+      <key>ru</key>
+      <value>Иностранная организация</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="701ec84b-6a47-4776-a2d1-989d5c73567a">
+    <name>РоссийскаяОрганизация</name>
+    <synonym>
+      <key>ru</key>
+      <value>Российская организация</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>
