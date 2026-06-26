@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<mdclass:Role xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="9cc333db-26ee-4b64-b0c5-2c8992428d1c">
-  <name>ОтправкаДокументовВ1САрхив</name>
-  <synonym>
-    <key>ru</key>
-    <value>Отправка документов в 1С:Архив</value>
-  </synonym>
-</mdclass:Role>

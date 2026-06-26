@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<mdclass:CommonModule xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="b44b2db2-3923-42b8-a639-dba145c02a3f">
-  <name>ИнтеграцияС1САрхивомКлиент</name>
-  <synonym>
-    <key>ru</key>
-    <value>Интеграция с 1С:Архивом клиент</value>
-  </synonym>
-  <clientManagedApplication>true</clientManagedApplication>
-</mdclass:CommonModule>
