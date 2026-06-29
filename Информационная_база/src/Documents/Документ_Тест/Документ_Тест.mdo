@@ -10,7 +10,7 @@
   <name>Документ_Тест</name>
   <synonym>
     <key>ru</key>
-    <value>Документ тест</value>
+    <value>Документ тест тест2</value>
   </synonym>
   <useStandardCommands>true</useStandardCommands>
   <inputByString>Document.Документ_Тест.StandardAttribute.Number</inputByString>
